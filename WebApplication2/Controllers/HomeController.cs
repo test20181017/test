@@ -10,6 +10,7 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
 
@@ -17,6 +18,7 @@ namespace WebApplication2.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            ViewBag.Message = "Your application description page.";
             return View();
         }
 
